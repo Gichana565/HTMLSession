@@ -1,0 +1,13 @@
+HTML:
+- Skeleton of a website
+- Files end with .html extension
+- Parts: Head and Body
+- Head: Tile, language
+- Body: Structure of interest, content of web page.
+- <!DOCTYPE html> Declares that it is a html page
+- Elements are found within tags.
+- HTML TAG is also called the root element.
+- Web pages have a single body element.
+- Head tag has more information about your web page, also contains the icon of a webpage
+- rel: Relationship between html file and photo
+- href: Shows the path to the resource
