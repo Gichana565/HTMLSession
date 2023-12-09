@@ -37,6 +37,7 @@
         <!--Img tag adds images to a HTML page, src attribute takes URL of image or path of a computer-->
         <!--alt attribute is your plan B if image fails to load-->
         <img src="maldives.jpg" alt="Maldives Atolls">
+        
 
         <!--One can connect a HTML page to other web pages by creating a hyperlink using anchor tag-->
         <!--The anchor tag is defined by a, which is the anchor element, and href attribute defines the path once it's clicked on-->
@@ -57,7 +58,30 @@
             <br>
             Quia, consequuntur!
         </p>
-        <img src="alps.jpg" alt="The Alps">
+        <img src="alps.jpg" alt="The Alps"> 
         <a href="#TopOfThePage">Let's go up top</a>
+
+        <!--The audio tag is used by HTML files to play audio-->
+        <!--Control attribute adds audio controls such as play, pause and volume control-->
+        <!--Source specifies alternative audio files that the browser can choose from, and the browser uses the first recignizable format-->
+        <!--Text between audio is displayed if audio file is not supported by the browser-->
+        <audio controls>
+            <source src="minuet.mp3" type="audio/mpeg">
+            Please check the audio extension
+            
+        </audio>
+        <br>
+
+        <!--video element adds videos to the web page-->
+        <!--It is preferable to use the height and weight attribute-->
+        <video width="320" height="240" autoplay>
+            <source src="SeaWaves.mp4" type="video/mp4">
+            Please Check the video extension
+        </video>
+
+        <!--iframe tag is used when adding a video from a different source, e.g Youtube-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4dMxU9gENk0?si=q7wKnJ3Mn9RGj5Ma" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+
     </body>
 </html>
