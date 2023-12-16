@@ -9,6 +9,13 @@
         <link rel="icon" href="favicon-16x16.png" type="image/png"/>
     </head>
     <body>
+
+        <nav>
+            <a href="contact.html">Contact Page</a>
+            <a href="semantic.html">HTML Semantics</a>
+        </nav>
+        <hr>
+        <br>
         <!--Contains content visible to the web browser-->
         <!--Headings are denoted from h1 to h6-->
         <h1>This is my first application with heading 1.</h1>
@@ -59,7 +66,20 @@
             Quia, consequuntur!
         </p>
         <img src="alps.jpg" alt="The Alps"> 
+        <br>
         <a href="#TopOfThePage">Let's go up top</a>
+        <br>
+
+        <!--Linking a page that is not a part of our main page-->
+        <a href="/contact.html">Contact Page</a>
+
+        <br>
+
+        <!--Semantic tag demonstration-->
+        <a href="/semantic.html">HTML Semantics</a>
+        
+        <br>
+        <br>
 
         <!--The audio tag is used by HTML files to play audio-->
         <!--Control attribute adds audio controls such as play, pause and volume control-->
@@ -185,27 +205,49 @@
             <h1>This is the second division</h1>
         </div>
 
+        <div style="display: grid;">
+            <img width="320" src="naruto.png" alt="naruto">
+            <img width="320" src="naruto.png">
+            <img width="320" src="naruto.png">
+            <img width="320" src="naruto.png">
+        </div>
+
         <!--HTML Tables are defined with table tag-->
         <!--th tag is for column names, tr tag is for rows and td tag is for column values-->
+        <div>
         <table border="1">
+            <!--tr is header row-->
             <tr>
+                <!--th is table head-->
                 <th>HTML</th>
                 <th>CSS</th>
                 <th>JS</th>
             </tr>
-
+            
+            <!--This is our first row-->
             <tr>
+                <!--td is table data-->
                 <td>Paragraphs</td>
                 <td>Selectors</td>
                 <td>DOM</td>
             </tr>
 
+            <!--This is our second row-->
             <tr>
                 <td>Tables</td>
                 <td>Styles</td>
                 <td>Elements</td>
             </tr>
         </table>
-        
+        </div>
+
+        <!--Adding a horizintal line to a webpage-->
+        <hr>
+
+        <!--Semantic tags add meaning to our HTML document-->
+        <!--Header is a group pf introductory or navigational aids, and contains a logo. search form, slogan, etc-->
+        <!--Footer contains information about the author, contact information, copyright data, etc-->
+
+
     </body>
 </html>
